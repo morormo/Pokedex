@@ -8,7 +8,7 @@ const PokemonPageContent = ({ data, pokemonStats, pokemonImage }) => {
     <>
       <Row>
         <Card className={`text-center ${styles.PokemonStats}`}>
-          <Card.Header className={styles.header}><h1>{data.name}<img src={pokemonImage}/></h1></Card.Header>
+          <Card.Header className={styles.header}><h1>{data.name}<img src={pokemonImage} alt={data.name}/></h1></Card.Header>
           <Card.Body>
             <Card.Title>Statistic</Card.Title>
             <Card.Text>
