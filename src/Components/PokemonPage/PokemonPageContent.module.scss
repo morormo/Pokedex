@@ -1,0 +1,36 @@
+@import "../../styles/global.module.scss";
+
+.PokemonStats {
+  width: 100%;
+
+  .header {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .stats {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: bold;
+
+    .statsName {
+      text-transform: uppercase;
+    }
+
+    .statsBar {
+      background-color: $bg-bar;
+      color: $font-PpColor;
+    }
+
+    .baseStat {
+      background-color: $bg-stat;
+      width: 100%;
+    }
+
+    .statsBar,
+    .baseStat {
+      border-radius: 3rem;
+    }
+  }
+}

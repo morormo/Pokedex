@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'PokemonSolid';
+  src: local('PokemonSolid'), url(../font/PokemonSolid.ttf) format('truetype');
+}
+
+//Font Color
+
+$color-yellow:  #FFCB05;
+$color-blue: #3D7DCA;
+$color-red: #ff0000;
+$color-navyBlue: #003A70;
+$color-white: #fff;
+
+//Header Colors
+
+$font-navbar: $color-yellow;
+$font-stroke: $color-blue;
+$bg-navbar: $color-red;
+
+//Pokemon Card
+$font-PcColor: $color-red;
+
+//PokemonPage
+$bg-bar: $color-navyBlue;
+$bg-stat: $color-blue;
+$font-PpColor: $color-white;

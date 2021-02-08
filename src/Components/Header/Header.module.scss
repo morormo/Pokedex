@@ -1,0 +1,21 @@
+
+@import "../../styles/global.module.scss";
+
+.navbar {
+  background-color: $bg-navbar;
+  font-family: PokemonSolid, serif;
+  margin-bottom: 5rem;
+
+  a {
+    font-size: 36px;
+    letter-spacing: 5px;
+    line-height: 36px;
+    text-decoration: none;
+    color: $font-navbar;
+    -webkit-text-stroke: 2px $font-stroke;
+    &:hover {
+      text-decoration: none;
+      color: $font-navbar;
+    }
+  }
+}
